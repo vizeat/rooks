@@ -4,7 +4,7 @@
     "packages/*"
   ],
   "useWorkspaces": true,
-  "version": "3.6.0",
+  "version": "3.6.1-canary.0",
   "changelog": {
     "repo": "imbhargav5/rooks",
     "cacheDir": ".changelog",
@@ -18,6 +18,11 @@
       "PR: Internal :house:": ":house: Internal",
       "PR: Performance :running_woman:": ":running_woman: Performance",
       "PR: Revert :leftwards_arrow_with_hook:": ":leftwards_arrow_with_hook: Revert"
+    }
+  },
+  "command": {
+    "publish": {
+      "registry": "https://registry.eatwith.io"
     }
   }
 }
